@@ -1,4 +1,4 @@
 # Morse-Code
 
-This is my first GitHub upload! :grinning:  
-I have written a simple python script that defines a function to encode a string into Morse code.
+This is my first GitHub upload! :nerd-face: :+1:    
+I have written a simple python script to encode a string into Morse code.
