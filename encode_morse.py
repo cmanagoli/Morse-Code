@@ -16,6 +16,7 @@ char_to_dots = {
 
 
 def encode_morse(message):
+    message = str(message)
     message = message.upper()
     try:
         for x in message:
