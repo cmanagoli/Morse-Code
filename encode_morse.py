@@ -1,5 +1,7 @@
 # Author: Chinmai Managoli
 
+import sys as sys
+
 # Morse code dictionary
 char_to_dots = {
   'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
@@ -27,4 +29,11 @@ def encode_morse(message):
         print("\n" + x + " is an invalid character")
     except:
         print("\nThere was an error")
+
+
+if __name__ == "__main__":
+    print("This program will encode a string into Morse. Unicode characters are not supported.")
+    string = input("Enter the message to be encoded: ")
+    encode_morse(string)
+    sys.exit()
 
